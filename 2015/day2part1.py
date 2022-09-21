@@ -6,7 +6,7 @@ if __name__ == '__main__':
     # print(c[0:16])
     s = c.split('\n')
     area = 0
-    for r in s[:-1]:
+    for r in s:
         # print(r)
         try:
             l, b, h = r.split('x')
